@@ -10,6 +10,7 @@ location =  geocoder.description_for_number(pepnumber, "en")
 service_num = phonenumbers.parse(number, "RO")
 print(carrier.name_for_number(service_num, "en"))
 print(location)
+//enter your own api key from opencage
 api_key = "  "
 geocoder =OpenCageGeocode(api_key)
 query = str(location)
